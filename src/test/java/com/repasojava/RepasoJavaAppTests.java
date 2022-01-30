@@ -1,13 +1,13 @@
-package afilando.programacion.Afilador;
+package com.repasojava;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AfilandoProgramacionApplicationTests {
+class RepasoJavaAppTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
