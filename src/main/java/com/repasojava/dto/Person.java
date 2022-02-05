@@ -1,5 +1,6 @@
 package com.repasojava.dto;
 
+
 public class Person {
 
     private int id;

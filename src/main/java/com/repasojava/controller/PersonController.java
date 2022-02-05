@@ -29,7 +29,7 @@ public class PersonController {
     }
 
     //Modificar
-    @PutMapping(value = "/person/{id}")
+    @PutMapping(value = "/person") //{id}
     public Person updatePerson(Person person) {
         return service.updatePerson(person);
     }
@@ -44,4 +44,5 @@ public class PersonController {
     public List<Person> getAllPerson() {
         return service.getAllPerson();
     }
+
 }
